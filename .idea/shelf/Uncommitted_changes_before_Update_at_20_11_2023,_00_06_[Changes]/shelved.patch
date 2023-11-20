@@ -1,0 +1,137 @@
+Index: data_types.js
+===================================================================
+diff --git a/data_types.js b/data_types.js
+deleted file mode 100644
+--- a/data_types.js	(revision a8b1b4cbcc3b586386a6347fdcc89b37e45e21c9)
++++ /dev/null	(revision a8b1b4cbcc3b586386a6347fdcc89b37e45e21c9)
+@@ -1,71 +0,0 @@
+-//1. 'number' + 3 = number3
+-//2. number3 + 3 = number33 - так як "number" це строка йде конкатенація рядків, читається зліва направо
+-console.log('number' + 3 + 3);
+-
+-//null + 3 = 3 - так як приведена арифметична операція, null приводиться до нуля
+-console.log(null + 3);
+-
+-//5 && 'qwerty' = 'qwerty' - повернуло останній істинний операнд
+-console.log(5 && "qwerty");
+-
+-//1. + '40' + + '2' = 42 - унарний плюс перед '40' перетворює на число, теж саме з '2'
+-//2. '42' + 'hillel' = 42hillel - далі виконується конкатенація рядків
+-console.log(+ '40' + + '2' + 'hillel');
+-
+-//1. '10' - 5  = 5 - '10' автоматично перетворюється на число через мінус перед ним
+-//2. 5 === 6 = false - числа не рівні
+-console.log('10' - 5 === 6);
+-
+-// true + false = 1 - true приводиться до 1, а false до нуля
+-console.log(true + false);
+-
+-// '4px' - 3 = NaN - намагається преобразовати рядок в число, але це неможливо через наявність символів
+-console.log('4px' - 3);
+-
+-//'4' - 3 = 1 - рядок '4' який преобразовується на число і після цього виконується арифметична операція - віднімання
+-console.log('4' - 3);
+-
+-//1. 3 ** 0 = 1 - три зводить у ступінь нуль, будь-яке число в ступіні 0 = 1
+-//2. '6' + 1 = 61 - оператор '+' в контексті рядків виконується конкатенація
+-console.log('6' + 3 ** 0);
+-
+-//12 / '6' = 2 - виконується автоматичне преобразовання рядка '6' в число перед виконуванням ділення
+-console.log(12 / '6');
+-
+-//1. 5 === 6 = false - not equals
+-//2. '10' + false = 10false - відбувається конкатенація рядків
+-console.log('10' + (5 === 6));
+-
+-//null == '' = false - null перетворюється на тип другого операнда, тобто 'null'
+-console.log(null == '');
+-
+-//1. (9 / 3) = 3 - арифметичний вираз
+-//2. (3 ** 3) = 27 - зведення у ступінь
+-console.log(3 ** (9 / 3));
+-
+-//1. !!'false' преобразується в true, тому що непустий рядок вважається істинним значенням як і з !!'true'
+-//2. порівнюємо 'true' == 'true' = true
+-console.log(!!'false' == !!'true');
+-
+-//1. '0' && 1 = 1 - '0' є істинним значенням, тому результатом будет 1
+-//2. 0 || '0' && 1 = 1 - так як нуль не є істинним значенням, результатом вираза будет '0' && 1, що вже є один
+-console.log(0 || '0' && 1);
+-
+-//1. унарний плюс перед null преобразується в число (нуль)
+-//2. false преобразовується також в число (нуль), таким чином, це рівняння істинно, тобто true ((0 == 0) = true)
+-//3. true в контексті зрівняння преобразується в 1. Тобто 1 < 1 = false
+-console.log((+null == false) < 1);
+-
+-//1. false && true = false
+-//2. false || true = true
+-console.log(false && true || true);
+-
+-//1. (false || true) = true
+-//2. false && true = false
+-console.log(false && (false || true));
+-
+-//1. (+null == false) = true - унарний + перед null преобразується в нуль, а false преобразується також до числа (нуль), при порівнянні отримуємо true (0 == 0 = true)
+-//2. 1 ** 5 = 1
+-//3. true < 1 = false - true преобразується в 1, при порівнянні 1 < 1 = false
+-console.log((+null == false) < 1 ** 5);
+-
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"83da3e52-effb-46a0-93f3-ab4cd2904066\" name=\"Changes\" comment=\"js 1 homework\">\n      <change afterPath=\"$PROJECT_DIR$/get_age.js\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JavaScript File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"js_homework1\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2YD7vcK1JpRGDN95PlB6fXGYUXr\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Node.js.get_age.js\">\n    <configuration name=\"data_types.js\" type=\"NodeJSConfigurationType\" temporary=\"true\" nameIsGenerated=\"true\" path-to-js-file=\"$PROJECT_DIR$/data_types.js\" working-dir=\"$PROJECT_DIR$\">\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"get_age.js\" type=\"NodeJSConfigurationType\" temporary=\"true\" nameIsGenerated=\"true\" path-to-js-file=\"$PROJECT_DIR$/get_age.js\" working-dir=\"$PROJECT_DIR$\">\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Node.js.get_age.js\" />\n        <item itemvalue=\"Node.js.data_types.js\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"83da3e52-effb-46a0-93f3-ab4cd2904066\" name=\"Changes\" comment=\"\" />\n      <created>1700048528800</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1700048528800</updated>\n      <workItem from=\"1700048530603\" duration=\"87000\" />\n      <workItem from=\"1700048916583\" duration=\"8787000\" />\n      <workItem from=\"1700416504132\" duration=\"5146000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"js 1 homework\">\n      <created>1700088349343</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1700088349343</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"js 1 homework\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"js 1 homework\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision a8b1b4cbcc3b586386a6347fdcc89b37e45e21c9)
++++ b/.idea/workspace.xml	(date 1700431408013)
+@@ -2,8 +2,8 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="83da3e52-effb-46a0-93f3-ab4cd2904066" name="Changes" comment="js 1 homework">
+-      <change afterPath="$PROJECT_DIR$/get_age.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/get_measure.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -34,6 +34,7 @@
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
++    <property name="nodejs_package_manager_path" value="npm" />
+     <property name="vue.rearranger.settings.migration" value="true" />
+   </component>
+   <component name="RecentsManager">
+@@ -41,15 +42,19 @@
+       <recent name="$PROJECT_DIR$" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Node.js.get_age.js">
++  <component name="RunManager" selected="Node.js.get_measure.js">
+     <configuration name="data_types.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/data_types.js" working-dir="$PROJECT_DIR$">
+       <method v="2" />
+     </configuration>
+     <configuration name="get_age.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/get_age.js" working-dir="$PROJECT_DIR$">
++      <method v="2" />
++    </configuration>
++    <configuration name="get_measure.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/get_measure.js" working-dir="$PROJECT_DIR$">
+       <method v="2" />
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Node.js.get_measure.js" />
+         <item itemvalue="Node.js.get_age.js" />
+         <item itemvalue="Node.js.data_types.js" />
+       </list>
+@@ -65,7 +70,7 @@
+       <updated>1700048528800</updated>
+       <workItem from="1700048530603" duration="87000" />
+       <workItem from="1700048916583" duration="8787000" />
+-      <workItem from="1700416504132" duration="5146000" />
++      <workItem from="1700416504132" duration="7041000" />
+     </task>
+     <task id="LOCAL-00001" summary="js 1 homework">
+       <created>1700088349343</created>

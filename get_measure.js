@@ -1,5 +1,5 @@
-var measure = "кілограми";
-var value = 10;
+var measure = prompt("Введіть одиницю вимірювання:");
+var value = Number(prompt ("Введіть потрібну кількість"));
 
 switch (measure){
     case "кілометри":
