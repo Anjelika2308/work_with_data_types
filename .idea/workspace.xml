@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83da3e52-effb-46a0-93f3-ab4cd2904066" name="Changes" comment="js 1 homework">
-      <change afterPath="$PROJECT_DIR$/draw_triangle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/display_sum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_sum.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_mesure.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_mesure.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +47,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.draw_triangle.js">
+  <component name="RunManager" selected="Node.js.display_sum.js">
     <configuration name="data_types.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/data_types.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="display_sum.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/display_sum.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="draw_triangle.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/draw_triangle.js" working-dir="$PROJECT_DIR$">
@@ -59,6 +62,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.display_sum.js" />
         <item itemvalue="Node.js.draw_triangle.js" />
         <item itemvalue="Node.js.get_age.js" />
         <item itemvalue="Node.js.data_types.js" />
@@ -79,7 +83,8 @@
       <workItem from="1700493241106" duration="559000" />
       <workItem from="1700680892184" duration="115000" />
       <workItem from="1700817038438" duration="102000" />
-      <workItem from="1700817143995" duration="2742000" />
+      <workItem from="1700817143995" duration="4006000" />
+      <workItem from="1700839943502" duration="1157000" />
     </task>
     <task id="LOCAL-00001" summary="js 1 homework">
       <created>1700088349343</created>
