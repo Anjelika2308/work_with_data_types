@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83da3e52-effb-46a0-93f3-ab4cd2904066" name="Changes" comment="js 1 homework">
-      <change afterPath="$PROJECT_DIR$/index_mesure.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draw_triangle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_measure.js" beforeDir="false" afterPath="$PROJECT_DIR$/get_measure.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_mesure.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_mesure.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -46,8 +47,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.get_age.js">
+  <component name="RunManager" selected="Node.js.draw_triangle.js">
     <configuration name="data_types.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/data_types.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="draw_triangle.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/draw_triangle.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="get_age.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/get_age.js" working-dir="$PROJECT_DIR$">
@@ -55,6 +59,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.draw_triangle.js" />
         <item itemvalue="Node.js.get_age.js" />
         <item itemvalue="Node.js.data_types.js" />
       </list>
@@ -71,7 +76,10 @@
       <workItem from="1700048530603" duration="87000" />
       <workItem from="1700048916583" duration="8787000" />
       <workItem from="1700416504132" duration="5146000" />
-      <workItem from="1700493241106" duration="305000" />
+      <workItem from="1700493241106" duration="559000" />
+      <workItem from="1700680892184" duration="115000" />
+      <workItem from="1700817038438" duration="102000" />
+      <workItem from="1700817143995" duration="2742000" />
     </task>
     <task id="LOCAL-00001" summary="js 1 homework">
       <created>1700088349343</created>
