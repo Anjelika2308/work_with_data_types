@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83da3e52-effb-46a0-93f3-ab4cd2904066" name="Changes" comment="js 1 homework">
-      <change afterPath="$PROJECT_DIR$/big_boss.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="83da3e52-effb-46a0-93f3-ab4cd2904066" name="Changes" comment="js 1 homework" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +91,7 @@
       <workItem from="1701184004182" duration="6667000" />
       <workItem from="1701804358309" duration="1001000" />
       <workItem from="1701951284710" duration="5627000" />
-      <workItem from="1702567755352" duration="4240000" />
+      <workItem from="1702567755352" duration="4648000" />
     </task>
     <task id="LOCAL-00001" summary="js 1 homework">
       <created>1700088349343</created>

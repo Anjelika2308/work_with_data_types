@@ -51,3 +51,4 @@ function findValueByKey(companyName) {
 }
 
 console.log(findValueByKey('Клієнт 1'));
+console.log(findValueByKey('Клієнт 2'));
