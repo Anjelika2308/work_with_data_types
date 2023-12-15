@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83da3e52-effb-46a0-93f3-ab4cd2904066" name="Changes" comment="js 1 homework">
-      <change afterPath="$PROJECT_DIR$/pad_function.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/big_boss.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,29 +46,29 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.random_function.js">
-    <configuration name="degree_sum.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/degree_sum.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.big_boss.js">
+    <configuration name="big_boss.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/big_boss.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="display_sum.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/display_sum.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="isNAN_function.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/isNAN_function.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="pad_function.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/pad_function.js" working-dir="$PROJECT_DIR$">
+    <configuration name="blend_array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/blend_array.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="random_function.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/random_function.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="return_info_function.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/return_info_function.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="return_service_calculation.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/return_service_calculation.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.big_boss.js" />
+        <item itemvalue="Node.js.blend_array.js" />
+        <item itemvalue="Node.js.return_info_function.js" />
+        <item itemvalue="Node.js.return_service_calculation.js" />
         <item itemvalue="Node.js.random_function.js" />
-        <item itemvalue="Node.js.pad_function.js" />
-        <item itemvalue="Node.js.isNAN_function.js" />
-        <item itemvalue="Node.js.display_sum.js" />
-        <item itemvalue="Node.js.degree_sum.js" />
       </list>
     </recent_temporary>
   </component>
@@ -92,7 +91,10 @@
       <workItem from="1701090759510" duration="230000" />
       <workItem from="1701090994332" duration="6530000" />
       <workItem from="1701111701187" duration="971000" />
-      <workItem from="1701184004182" duration="6277000" />
+      <workItem from="1701184004182" duration="6667000" />
+      <workItem from="1701804358309" duration="1001000" />
+      <workItem from="1701951284710" duration="5627000" />
+      <workItem from="1702567755352" duration="4240000" />
     </task>
     <task id="LOCAL-00001" summary="js 1 homework">
       <created>1700088349343</created>
@@ -129,8 +131,13 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/pad_function.js</url>
           <line>6</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/big_boss.js</url>
+          <line>44</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
